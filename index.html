@@ -8,14 +8,15 @@
         body, html {
             margin: 0;
             padding: 0;
-            height: 80%;
+            height: 100%;
             width: 100%;
+            overflow: hidden;  /* Hide any scrollbars */
         }
 
         /* Ensure the container stretches full height */
         .container {
             width: 100%;
-            height: 80%;
+            height: 100%;
             margin: 0;
             padding: 0;
         }
@@ -23,14 +24,15 @@
         /* Make the iframe fill the screen */
         iframe {
             width: 100%;
-            height: 80%vh;  /* Use 100vh to make it fill the full screen height */
+            height: 100vh;  /* Use 100vh to make it fill the full screen height */
             border: none;
         }
 
-        /* Hide scrollbar */
+        /* Hide any scroll bars */
         .tableauPlaceholder {
             width: 100%;
-            height: 80%vh;
+            height: 100vh;
+            overflow: hidden;  /* Ensures no scrollbars are visible */
         }
     </style>
 </head>
