@@ -1,89 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Reset body margin and padding to allow full screen usage */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;  /* Hide any scrollbars */
-        }
-
-        /* Ensure the container stretches full height */
-        .container {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Make the iframe fill the screen */
-        iframe {
-            width: 100%;
-            height: 100vh;  /* Use 100vh to make it fill the full screen height */
-            border: none;
-        }
-
-        /* Hide any scroll bars */
-        .tableauPlaceholder {
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;  /* Ensures no scrollbars are visible */
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Embed Tableau dashboard -->
-        <div class="tableauPlaceholder" id="viz1733163903977" style="position: relative">
-            <noscript>
-                <a href="#">
-                    <img alt="Ocean Front Market Dashboard" 
-                         src="https://public.tableau.com/static/images/Oc/OceanFrontMarketDashboard/OceanFrontMarketDashboard/1_rss.png" 
-                         style="border: none" />
-                </a>
-            </noscript>
-            <object class="tableauViz" style="display:none;">
-                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-                <param name="embed_code_version" value="3" />
-                <param name="site_root" value="" />
-                <param name="name" value="OceanFrontMarketDashboard/OceanFrontMarketDashboard" />
-                <param name="tabs" value="no" />
-                <param name="toolbar" value="yes" />
-                <param name="static_image" value="https://public.tableau.com/static/images/Oc/OceanFrontMarketDashboard/OceanFrontMarketDashboard/1.png" />
-                <param name="animate_transition" value="yes" />
-                <param name="display_static_image" value="yes" />
-                <param name="display_spinner" value="yes" />
-                <param name="display_overlay" value="yes" />
-                <param name="display_count" value="yes" />
-                <param name="language" value="en-US" />
-            </object>
-        </div>
-        <script type="text/javascript">
-            var divElement = document.getElementById('viz1733163903977');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            if (divElement.offsetWidth > 800) {
-                vizElement.style.width = '100%';
-                vizElement.style.maxWidth = '1750px';
-                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                vizElement.style.maxHeight = '1487px';
-            } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = '100%';
-                vizElement.style.maxWidth = '1750px';
-                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                vizElement.style.maxHeight = '1487px';
-            } else {
-                vizElement.style.width = '100%';
-                vizElement.style.height = '1927px';
-            }
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-        </script>
-    </div>
-</body>
-</html>
+<div class='tableauPlaceholder' id='viz1733165102009' style='position: relative; width: 100%; height: 100vh;'>
+    <noscript>
+        <a href='#'>
+            <img alt='Ocean Front Market Dashboard' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Oc&#47;OceanFrontMarketDashboard&#47;OceanFrontMarketDashboard&#47;1_rss.png' style='border: none;' />
+        </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='OceanFrontMarketDashboard&#47;OceanFrontMarketDashboard' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Oc&#47;OceanFrontMarketDashboard&#47;OceanFrontMarketDashboard&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+    </object>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1733165102009');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = '100vh'; // Full viewport height
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
